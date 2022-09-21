@@ -1,8 +1,11 @@
 export const Logo = () => {
   return (
-    <>
-      <h1>TheDailySpace</h1>
-    </>
+    <img
+      src="https://res.cloudinary.com/diwbhjogl/image/upload/v1663705379/TheDailySpace.LandingPage/TheDailySpace_-_logo_vq4kzk.png"
+      width={400}
+      height={46}
+      alt="Logo - TheDailySpace"
+    />
   );
 };
 
