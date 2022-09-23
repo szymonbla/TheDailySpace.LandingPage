@@ -4,11 +4,17 @@ import LandingPageLayout from "layouts/LandingPageLayout.astro";
 
 <LandingPageLayout title="TheDailySpace">
   <main class="m-2">
-    <h1>Bądź na bieżąco i oszczędzaj czas</h1>
-    <p>
+    <h1 class="text-6xl font-semibold">
+      Bądź na bieżąco i <span class="text-blue">oszczędzaj</span> czas
+    </h1>
+    <p class="text-xl">
       Zapisz się do bezpłatnego newslettera i otrzymuj wiadomości każdego dnia
     </p>
-    <input type="email" placeholder="jan.kowalski@mail.com" class="border-red-900 border-4 p-2" />
+    <input
+      type="email"
+      placeholder="jan.kowalski@mail.com"
+      class="border-red-900 border-4 p-2"
+    />
     <button class="font-bold">Zapisuję się</button>
   </main>
 </LandingPageLayout>

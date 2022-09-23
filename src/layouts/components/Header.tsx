@@ -1,8 +1,8 @@
 import Logo from "components/Logo";
 
-const Header = () => {
+const Header = (): JSX.Element => {
   return (
-    <header className="p-10">
+    <header className="p-5">
       <Logo />
     </header>
   );
